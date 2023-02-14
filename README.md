@@ -4,4 +4,6 @@ Excel file reporting compile errors, time outs, memory leaks, incorrect logic an
 
 For grading, it uses a series of unit tests specified in ```tests.txt``` and ```tests/``` folders. 
 
+### Sample Output
+
 <img src="sample_output.png">
