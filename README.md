@@ -6,7 +6,7 @@ For grading, it uses a series of unit tests specified in ```tests.txt``` and ```
 
 The home works to be graded need to be supplied in ```samples.txt``` and ```samples/``` folders. 
 
-Configuration file ```config.txt``` specifies various options related to the report generation. 
+Configuration file ```config.txt``` specifies various options related to the report generation and unit test (e.g., the time out duration if the compiled code is not responding). 
 
 ### Sample Output
 
