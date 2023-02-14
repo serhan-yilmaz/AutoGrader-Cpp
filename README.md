@@ -18,6 +18,6 @@ Configuration file ```config.txt``` specifies various options related to the rep
 
 ### Sample Output
 - As an output, the application prepares a ```report.xml``` file containing the test results and grade details of each student. 
-- Further details for each test are supplied under ```[Assignment File Path]/Compile_Files/``` and ```[Assignment File Path]/RunFiles/```. A summary is also provided in ```summary.txt`` file for each assignment. 
+- Further details for each test are supplied under ```[Assignment File Path]/Compile_Files/``` and ```[Assignment File Path]/RunFiles/```. A summary is also provided in ```summary.txt``` file for each assignment. 
 - When opened in Excel, the generated reports look like the following sample output: 
 <img src="sample_output.png">
