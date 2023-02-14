@@ -1,0 +1,14 @@
+% timeout_time      determines the maximum time allocated for a test.
+% timeout_kill_time determines the maximum time allowed 
+%                   before the command is killed after TERM signal is sent.
+% Both timeout_time and timeout_kill_time are in terms of seconds.
+timeout_time=3
+timeout_kill_time=0.2
+gcc_options=-std=c++11
+worksheet_name=Automatic Grader Report
+font_size=15
+font_size_headings=18
+column_width=100
+column_width_first=170
+
+
