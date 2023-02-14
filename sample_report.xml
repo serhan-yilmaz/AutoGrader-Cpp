@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+<Style ss:ID="STYLE_HEADINGS">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="18" ss:Bold="1" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#ddd9c3" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_REGULAR">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#ffffff" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_SAMPLES">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#fde9d9" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_POINTS">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#DBEEF3" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_COMPILE_ERROR">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#ff0000" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_CORRECT_LOGIC">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#00ff00" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_INCORRECT_LOGIC">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#ffff00" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_TIMEOUT_ERROR">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#00ffff" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_MEMORY_LEAK">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#ff00ff" ss:Pattern="Solid" />
+</Style>
+<Style ss:ID="STYLE_FATAL_ERROR">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="15" ss:Bold="0" ss:FontName="Calibri" />
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" />
+<Interior ss:Color="#0087ff" ss:Pattern="Solid" />
+</Style>
+</Styles>
+<Worksheet ss:Name="Automatic Grader Report" >
+<Table>
+<Column ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:AutoFitWidth="0" ss:Width="100"/>
+<Column ss:AutoFitWidth="0" ss:Width="100"/>
+<Column ss:AutoFitWidth="0" ss:Width="100"/>
+<Row>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">Name</Data></Cell>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">test1</Data></Cell>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">test2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">Correct_Solution</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">60</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample1</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_INCORRECT_LOGIC"><Data ss:Type="String">Incorrect Logic</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">60</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample2</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_INCORRECT_LOGIC"><Data ss:Type="String">Incorrect Logic</Data></Cell>
+<Cell ss:StyleID="STYLE_INCORRECT_LOGIC"><Data ss:Type="String">Incorrect Logic</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample3</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_COMPILE_ERROR"><Data ss:Type="String">Compile Error</Data></Cell>
+<Cell ss:StyleID="STYLE_COMPILE_ERROR"><Data ss:Type="String">Compile Error</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample4</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_FATAL_ERROR"><Data ss:Type="String">Fatal Error</Data></Cell>
+<Cell ss:StyleID="STYLE_FATAL_ERROR"><Data ss:Type="String">Fatal Error</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample5</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_TIMEOUT_ERROR"><Data ss:Type="String">Timeout Error</Data></Cell>
+<Cell ss:StyleID="STYLE_TIMEOUT_ERROR"><Data ss:Type="String">Timeout Error</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample6</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_MEMORY_LEAK"><Data ss:Type="String">Memory Leak</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">60</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample7</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="Number">60</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_SAMPLES"><Data ss:Type="String">sample8</Data></Cell>
+<Cell ss:StyleID="STYLE_POINTS" ss:Formula="=SUM(RC[1]:RC[2])"><Data ss:Type="Number">0</Data></Cell>
+<Cell ss:StyleID="STYLE_MEMORY_LEAK"><Data ss:Type="String">Memory Leak</Data></Cell>
+<Cell ss:StyleID="STYLE_TIMEOUT_ERROR"><Data ss:Type="String">Timeout Error</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="Color Legend " >
+<Table>
+<Column ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">Color</Data></Cell>
+<Cell ss:StyleID="STYLE_HEADINGS"><Data ss:Type="String">Description</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_COMPILE_ERROR"><Data ss:Type="String">RED</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Compile Error</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_CORRECT_LOGIC"><Data ss:Type="String">GREEN</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Correct Solution</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_INCORRECT_LOGIC"><Data ss:Type="String">YELLOW</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Logical Error</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_TIMEOUT_ERROR"><Data ss:Type="String">CYAN</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Timeout</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_MEMORY_LEAK"><Data ss:Type="String">MAGENTA</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Memory Leak</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="STYLE_FATAL_ERROR"><Data ss:Type="String">LIGHT_BLUE</Data></Cell>
+<Cell ss:StyleID="STYLE_REGULAR"><Data ss:Type="String">Fatal Error</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
