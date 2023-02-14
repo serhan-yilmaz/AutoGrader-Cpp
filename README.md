@@ -16,6 +16,21 @@ Configuration file ```config.txt``` specifies various options related to the rep
 - Compiler options for gcc
 - Title, font sizes and column widths for the generated reports
 
+### Getting Started
+- If you would like to measure memory leaks, install valgrind:
+```
+sudo apt  install valgrind
+```
+- Compile the source code:
+```
+make install
+```
+
+- Run the application
+```
+./Autograder tests.txt samples.txt config.txt
+```
+
 ### Outputs & Sample Report
 - As an output, the application prepares a ```report.xml``` file containing the test results and grade details of each student. 
 - Further details for each test are supplied under ```[Assignment File Path]/Compile_Files/``` and ```[Assignment File Path]/RunFiles/```. A summary file ```summary.txt``` is also provided for each assignment. 
