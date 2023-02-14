@@ -16,7 +16,7 @@ Configuration file ```config.txt``` specifies various options related to the rep
 - Compiler options for gcc
 - Title, font sizes and column widths for the generated report
 
-### Sample Output
+### Outputs & Sample Report
 - As an output, the application prepares a ```report.xml``` file containing the test results and grade details of each student. 
 - Further details for each test are supplied under ```[Assignment File Path]/Compile_Files/``` and ```[Assignment File Path]/RunFiles/```. A summary is also provided in ```summary.txt``` file for each assignment. 
 - When opened in Excel, the generated reports look like the following sample output: 
