@@ -6,6 +6,8 @@ For grading, it uses a series of unit tests specified in ```tests.txt``` and ```
 
 The home works to be graded need to be supplied in ```samples.txt``` and ```samples/``` folders. 
 
+Configuration file ```config.txt``` specifies various options related to the report generation. 
+
 ### Sample Output
 
 <img src="sample_output.png">
