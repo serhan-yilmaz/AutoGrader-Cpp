@@ -27,7 +27,7 @@ If you would like to measure memory leaks, please make sure that ```valgrind``` 
 sudo apt install valgrind
 ```
 
-Run the AutoGrader to prepare the report
+Next, run the AutoGrader to prepare the report
 ```
 ./Autograder tests.txt samples.txt config.txt
 ```
