@@ -4,7 +4,7 @@ Excel file reporting compile errors, time outs, memory leaks, incorrect logic an
 
 ### Requred inputs
 
-For grading, it uses a series of unit tests specified in ```tests.txt``` and ```tests/``` folders. 
+For grading, the application uses a series of unit tests specified in ```tests.txt``` and ```tests/``` folders. 
 - Each test should be on a separate line in the following format: ```[Test File Path], [Grade], [Binary 1/0 Flag for Memory Leak Testing]```. 
 - For example, ```tests/test1.cpp, 40, 1```
 
