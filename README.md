@@ -17,16 +17,17 @@ Configuration file ```config.txt``` specifies various options related to the rep
 - Title, font sizes and column widths for the generated reports
 
 ### Getting Started
-- If you would like to measure memory leaks, install valgrind:
-```
-sudo apt  install valgrind
-```
-- Compile the source code:
+For getting started, first compile the source code:
 ```
 make install
 ```
 
-- Run the application
+If you would like to measure memory leaks, please make sure that ```valgrind``` is installed:
+```
+sudo apt install valgrind
+```
+
+Run the AutoGrader to prepare the report
 ```
 ./Autograder tests.txt samples.txt config.txt
 ```
