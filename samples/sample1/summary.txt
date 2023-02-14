@@ -1,0 +1,4 @@
+Name : sample1
+test1 - 0 Incorrect Logic
+test2 - 60 Correct Logic
+Grade is 60 out of 100.

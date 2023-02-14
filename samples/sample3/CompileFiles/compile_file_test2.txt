@@ -1,0 +1,5 @@
+
+samples/sample3/MyClass.cpp: In member function ‘int MyClass::getValue()’:
+samples/sample3/MyClass.cpp:9:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^

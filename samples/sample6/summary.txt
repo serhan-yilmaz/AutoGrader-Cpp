@@ -1,0 +1,4 @@
+Name : sample6
+test1 - 0 Memory Leak
+test2 - 60 Correct Logic
+Grade is 60 out of 100.

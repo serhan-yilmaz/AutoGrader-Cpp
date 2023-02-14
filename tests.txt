@@ -1,0 +1,2 @@
+tests/test1.cpp, 40, 1
+tests/test2.cpp, 60, 0
