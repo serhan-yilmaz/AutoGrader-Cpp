@@ -3,7 +3,7 @@ An application to automatize the grading of coding assignments in C++. It prepar
 Excel file reporting compile errors, time outs, memory leaks, incorrect logic and fatal errors. 
 
 For grading, it uses a series of unit tests specified in ```tests.txt``` and ```tests/``` folders. 
-- Each test should be on a separate line in the following format: ```[Test_File_Path]```, ```[Grade]```, ```[Binary 1/0 Flag for Memory Leak Testing]```. 
+- Each test should be on a separate line in the following format: ```[Test_File_Path], [Grade], [Binary 1/0 Flag for Memory Leak Testing]```. 
 - For example, ```tests/test1.cpp, 40, 1```
 
 The home works to be graded need to be supplied in ```samples.txt``` and ```samples/``` folders. 
