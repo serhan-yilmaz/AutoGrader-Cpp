@@ -11,7 +11,10 @@ For grading, the application uses a series of unit tests specified in ```tests.t
 The home works to be graded need to be supplied in ```samples.txt``` and ```samples/``` folders. 
 - Each home work should be on a separate file in the following format: ```[Homework File Path]```. For example, ```samples/sample1.cpp```. 
 
-Configuration file ```config.txt``` specifies various options related to the report generation and unit test (e.g., the time out duration if the compiled code is not responding). 
+Configuration file ```config.txt``` specifies various options related to the report generation and unit tests. For example, 
+- The time out duration if the compiled code is not responding
+- Compiler options for gcc
+- Title, font sizes and column widths for the generated report
 
 ### Sample Output
 
