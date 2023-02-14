@@ -1,6 +1,7 @@
 # AutoGrader-Cpp
-An application to automatize the grading of coding assignments in C++. It prepares a summary
-Excel file reporting compile errors, time outs, memory leaks, incorrect logic and fatal errors. 
+An application to automatize the grading of coding assignments in C++. 
+
+- Prepares a summary Excel file reporting compile errors, time outs, memory leaks, incorrect logic and fatal errors. 
 
 ### Requred inputs
 
