@@ -17,5 +17,5 @@ Configuration file ```config.txt``` specifies various options related to the rep
 - Title, font sizes and column widths for the generated report
 
 ### Sample Output
-
+As an output, the application prepares a ```report.xml`` file containing the test results and grade details of each student. When opened in Excel, the generated report looks like the following: 
 <img src="sample_output.png">
