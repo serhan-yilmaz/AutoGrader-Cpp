@@ -17,7 +17,7 @@ Configuration file ```config.txt``` specifies various options related to the rep
 - Compiler options for gcc
 - Title, font sizes and column widths for the generated reports
 
-### Getting Started
+### Installation Requirements & Running AutoGrader
 For getting started, first compile the source code:
 ```
 make install
